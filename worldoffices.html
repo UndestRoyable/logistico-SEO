@@ -22,10 +22,7 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/gijgo.css">
     <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slicknav.css">
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css">
-
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -43,7 +40,6 @@
     <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
-
 
      <!-- header-start -->
      <header>
@@ -104,64 +100,18 @@
         </div>
     </header>
     <!-- header-end -->
-
-    <!-- bradcam_area  -->
-    <div class="bradcam_area bradcam_bg_1">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="bradcam_text text-center">
-                        <h3>Нашите услуги</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--/ bradcam_area  -->
-    <!-- service_area  -->
-    <div class="service_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-4">
-                    <div class="single_service">
-                        <div class="thumb">
-                            <img src="img/service/1.png" alt="">
-                        </div>
-                        <div class="service_info">
-                            <h3><a href="service_details.html">Презокеански транспорт</a></h3>
-                            <p>Имаме богат опит в пренос на товари през океана.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="single_service">
-                        <div class="thumb">
-                            <img src="img/service/2.png" alt="">
-                        </div>
-                        <div class="service_info">
-                            <h3><a href="service_details.html">Сухопътен транспорт</a></h3>
-                            <p>Разполагаме с бордови ремаркета, цистерни, хладилни ремаркета и мега трейлъри.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-
-                    <div class="single_service">
-                        <div class="thumb">
-                            <img src="img/service/3.png" alt="">
-                        </div>
-                        <div class="service_info">
-                            <h3><a href="service_details.html">Въздушен транспорт</a></h3>
-                            <p>Организираме въздушен транспорт за товари, които трябва да стигнат бързо надалече.</p>
-                        </div>
-                    </div>
-                </div>
-               
-            </div>
-        </div>
-    </div>
-    <!--/ service_area  -->
-
+	
+<br>
+<p style="text-align:center"><img src="img/elements/worldmap.png" alt="Map" usemap="#workmap" ></p>
+<map name="workmap">
+  <area shape="rect" coords="227,186,16,19" alt="North Amerika" href="img/elements/NorthAmerika.JPG" class="img-pop-up">
+  <area shape="rect" coords="120,185,250,380" alt="South Amerika" href="img/elements/SouthAmerika.JPG" class="img-pop-up">
+  <area shape="poly" coords="458,2,684,36,637,194,439,173,397,106,447,94" alt="Asia" href="img/elements/Asia.JPG" class="img-pop-up">
+  <area shape="poly" coords="320,117,410,129,458,183,446,275,379,308,282,169" alt="Afrika" href="img/elements/Afrika.JPG" class="img-pop-up">
+  <area shape="poly" coords="354,27,455,30,459,70,442,99,384,112,315,109,318,57" alt="Europe" href="img/elements/Europe.JPG" class="img-pop-up">
+</map>
+		
+   
     <!-- contact_location  -->
     <div class="contact_location">
         <div class="container">
@@ -257,43 +207,53 @@
         </div>
     </footer>
     <!--/ footer end  -->
+            <!-- JS here -->
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/ajax-form.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <script src="js/imagesloaded.pkgd.min.js"></script>
+        <script src="js/scrollIt.js"></script>
+        <script src="js/jquery.scrollUp.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/nice-select.min.js"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/gijgo.min.js"></script>
+    
+        <!--contact js-->
+        <script src="js/contact.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="js/jquery.form.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/mail-script.js"></script>
+    
+        <script src="js/main.js"></script>
+        <script>
+            $('#datepicker').datepicker({
+                iconsLibrary: 'fontawesome',
+                icons: {
+                 rightIcon: '<span class="fa fa-caret-down"></span>'
+             }
+            });
+            $('#datepicker2').datepicker({
+                iconsLibrary: 'fontawesome',
+                icons: {
+                 rightIcon: '<span class="fa fa-caret-down"></span>'
+             }
+    
+            });
+        </script>
 
 
-    <!-- JS here -->
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/ajax-form.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/scrollIt.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/nice-select.min.js"></script>
-    <script src="js/jquery.slicknav.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <!-- <script src="js/gijgo.min.js"></script> -->
-    <script src="js/slick.min.js"></script>
 
 
-
-    <!--contact js-->
-    <script src="js/contact.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script>
-
-
-    <script src="js/main.js"></script>
-
-
-
-</body>
-
-</html>
+    </body>
+    
+    </html>
